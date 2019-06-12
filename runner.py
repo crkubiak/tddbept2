@@ -1,5 +1,7 @@
 from wasRun import WasRun
 from testCaseTest import TestCaseTest
-
-print(TestCaseTest("testTemplateMethod").run())
-
+from testCase import TestCase
+# test = TestCase()
+# test.run()
+print(TestCase("setUp").run())
+print(TestCase("tearDown").run())
