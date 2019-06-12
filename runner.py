@@ -3,5 +3,5 @@ from testCaseTest import TestCaseTest
 from testCase import TestCase
 # test = TestCase()
 # test.run()
-print(TestCase("setUp").run())
+print(TestCaseTest("testTemplateMethod").run().summary())
 print(TestCase("tearDown").run())
